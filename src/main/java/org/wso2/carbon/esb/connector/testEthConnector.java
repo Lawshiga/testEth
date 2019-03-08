@@ -33,6 +33,7 @@ public class testEthConnector extends AbstractConnector {
             log.info("testEth sample connector received message :" + templateParam);
             /**Add your connector code here 
             **/
+
         } catch (Exception e) {
 	    throw new ConnectException(e);	
         }
